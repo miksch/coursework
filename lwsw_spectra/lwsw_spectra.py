@@ -8,7 +8,6 @@ Last edit: September 4th, 2018 (converted to Python 3.6 and added docstrings)
 @author: miksch
 '''
 
-import math
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -46,7 +45,7 @@ class wavelength_spectra(object):
         h = 6.63e-34 #Planck Constant
         c = 3.0e+8 #Speed of light
         k = 1.38e-23
-        spectra = (2*math.pi*h*c**2)/(lmbda_series**5*(np.exp((h*c)/(lmbda_series*k*T))-1))
+        spectra = (2*np.pi*h*c**2)/(lmbda_series**5*(np.exp((h*c)/(lmbda_series*k*T))-1))
         return spectra        
         
 def main():
