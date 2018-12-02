@@ -4,7 +4,7 @@ RH sensor.
 
 Course: PSC 6000 - Environmental Instrumentation
 Created: September 18th, 2017
-Last edit: September 12th, 2017 (added docstrings and comments)
+Last edit: September 12th, 2018 (added docstrings and comments)
 
 @author: miksch
 '''
