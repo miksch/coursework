@@ -1,8 +1,9 @@
 # coursework
 
 Select scripts and programs written for classes I took while at Utah State University.
-
----
+<br/>
+<br/>
+<br/>
 
 #### humidity_comparison
 
